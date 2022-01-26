@@ -1,0 +1,501 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <!-- ========== Page Title ========== -->
+    <title>Task</title>
+
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- ========== Start Stylesheet ========== -->
+   <!--  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/bootstrap.css" rel="stylesheet"/> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link href="css/bootstrap-grid.min.css" rel="stylesheet" /> -->
+    
+
+ 
+</head>
+<style type="text/css">
+.nav_fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    /* overflow: hidden; */
+    
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+}
+
+.nav_fixed.shrink {
+    background: linear-gradient(to right, rgb(226 101 41 / 0.80), rgb(226 101 41 / 0.80), rgb(114 99 129 / 0.80), rgb(123 98 255 / 63%), rgb(112 98 158 / 0.95));
+}
+    .truck-nav{
+    background-color: #00000000!important;
+}
+@media (max-width: 767px){
+
+    .truck-nav {
+    background-color: #000000!important;
+}
+}
+</style>
+<body>
+<nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top truck-nav nav_fixed shrink">
+        <div class="container">
+        <a href="/" class="navbar-brand">
+        <img src="images/logo-truck.png">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="" class="nav-link active">
+                    HOME 
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link active">
+                    FEATURE
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link active">
+                    PRICING
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link active">
+                    RESOURCES
+                </a>
+            </li>
+             <li class="nav-item">
+                <a href="" class="nav-link active">
+                    APP
+                </a>
+            </li>
+        </ul>
+        </div>
+
+
+
+    </div>
+</nav>
+
+<header class="header valign bg-img" style="background: url(images/bg.png); background-size: cover!important;">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="banner_tit clip">
+                            <h1 class="blc text-white"><span class="unlimit">Unlimited </span>ProMiles Routing </h1>
+                        </div>
+                        <div class="list">
+                            <div class="tick">
+                                <img src="images/tick.png"> 
+
+                            </div>
+                        <div class="routes">
+                            <p>Find better routes without limits! TruckLogics now comes with unlimited ProMiles routing in our Preferred & Premium packages.</p>
+                           
+
+                        </div>
+                        <div class="tick">
+                                <img src="images/tick.png"> 
+
+                            </div>
+                        <div class="routes">
+                             <p> No more buying add-on credits—it’s all included, and it’s unlimited. </p>
+
+
+                        </div>
+                        <form class="center">
+    <button class="free-rial" type="button">Get free trail</button>
+    <input placeholder="Enter your email address">
+             </form>
+                    </div>
+
+                      
+                       
+                    </div>
+                    <div class="col-sm-12 col-md-5 col-lg-5">
+                        <div class="right-img">
+                       <img class="ban_right" src="images/mobile-mock.png">
+                   </div>
+                    </div>
+
+                    
+                    
+                </div>
+            </div>
+        </header>
+        <style type="text/css">
+            .about h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #e97b46;
+    position: relative;
+    padding-bottom: 23px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
+}
+.about a {
+ 
+    display: flex;
+    margin-top: 10px;
+}
+img.pos-ab {
+    position: absolute;
+    width: 30px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    text-align: center;
+}
+.video img {
+    width: 100%;
+    filter: brightness(0.5);
+    border-radius: 10px;
+}
+.about h3:before {
+    position: absolute;
+    content: '';
+    width: 45px;
+    height: 3px;
+    background: #e97b46;
+    bottom: 0;
+}
+.video {
+    position: relative;
+    background: #fff;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 0 1rem 3rem rgba(31,45,61,.125)!important;
+}
+        </style>
+        <section class="why-truck">
+            <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="about">
+                    <h3><b>Why</b> TruckLogics?</h3>
+                    <p>TruckLogics is an All-In-One Business Management program for small to mid-size trucking companies to securely manage their entire business with one Cloud-based tool.</p>
+                    <p>The inspiration for TruckLogics came straight from all of you! For years we’ve been supporting users of our sister products, ExpressTruckTax &amp; ExpressIFTA. This allowed us a unique opportunity to learn the industry and hear directly from truckers what they need to help their businesses grow. </p>
+                    
+                </div>
+                   <div class="btn-learn-sec">
+                               <a href="">LEARN MORE  </a><i class="fa fa-arrow-right dis-ri" aria-hidden="true"></i>
+                           </div>
+
+            </div>
+            <div class="col-md-6 col-sm-12" >
+              <div class="pos-rel">
+                    <div class="video">
+                        <img src="images/app-product.jpg" alt="">
+                    </div>
+                
+                    <img src="images/play.svg" alt="" class="pos-ab">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+            
+
+
+        </section>
+  
+
+        <section class="truck-logic">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logic-features">
+                            <h3> TruckLogics Features</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.  </p>
+
+
+
+
+
+                        </div>
+                        <div class="btn-more">
+                           <a href="" class="btn-feature">  MORE FEATURES</a>
+
+                        </div>
+
+
+
+                    </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="logic-box">
+                                       <div class="logics-icon">
+                                <img src="images/car.png"> 
+
+                            </div>
+                        <div class="logic-sec">
+                             <h6>Dispatch Management</h6>
+
+
+                        </div>
+                        <div class="dis">
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
+                           
+
+                        </div>
+                           <div class="btn-learn">
+                               <a href="">LEARN MORE </a>
+                               <i class="fa fa-arrow-right dis-ri" aria-hidden="true"></i>
+                           </div>
+
+
+                                </div>
+                            </div>
+                                <div class="col-md-4">
+                                                <div class="logic-box">
+                                       <div class="logics-icon">
+                                <img src="images/truck.png"> 
+
+                            </div>
+                        <div class="logic-sec">
+                             <h6>Less Than 
+                         TruckLoad (LTL)</h6>
+
+
+                        </div>
+                        <div class="dis">
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
+                         
+
+                        </div>
+                        <div class="btn-learn">
+                               <a href="">LEARN MORE </a>
+                               <i class="fa fa-arrow-right dis-ri" aria-hidden="true"></i>
+                           </div>
+
+
+                                </div>
+
+
+                                </div>
+                                <div class="col-md-4">
+                                                <div class="logic-box">
+                                       <div class="logics-icon">
+                                <img src="images/man.png"> 
+
+                            </div>
+                        <div class="logic-sec">
+                             <h6>Multi-User <br>Login Access</h6>
+
+
+                        </div>
+                        <div class="dis">
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
+                           
+
+                        </div>
+                         <div class="btn-learn">
+                               <a href="">LEARN MORE  </a><i class="fa fa-arrow-right dis-ri" aria-hidden="true"></i>
+                           </div>
+
+
+                                </div>
+
+
+                                </div>
+
+
+                            </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+        <style type="text/css">
+        ul.store {
+    list-style: none;
+    padding: 0;
+}
+ul.store li img {
+    width: 136px;
+    margin-right: 15px;
+}ul.store {
+    list-style: none;
+    padding: 0;
+}
+ul.store li {
+    display: inline-block;
+}
+        </style>
+          <section class="truck-avail">
+            <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-lg-6">
+                <div class="sys">
+                    <img src="images/tab.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-6">
+                <div class="about store_top">
+                    <h3>TruckLogics Available on the 
+                        Devices You Use EveryDay
+                    </h3>
+                    <p>Available for free download on iphone,ipad & Android Devices</p>
+                    <ul class="store">
+                        <li>
+                            <a href="">
+                            <img src="images/download-on-the-app-store.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/get-it-on-google-play.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+
+
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-lg-2 col-sm-12">
+                        <div class="footer-title">
+                            <h5>Product</h5>
+                            <li> <a href ="">Pay roll</a></li>
+                             <li> <a href ="">Benefits </a></li>
+                              <li> <a href ="">HR</a></li>
+                               <li><a href =""> Pricing</a></li>
+                                <li> <a href ="">Integration</a></li>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-sm-12">
+                               <div class="footer-title">
+                            <h5>Resources</h5>
+                            <li><a href=""> Help center </a></li>
+                             <li><a href=""> Small business resources</a> </li>
+                              <li> <a href="">Small business basics </a></li>
+                               <li> <a href="">New to payroll</a> </li>
+                                <li> <a href="">How to switch payroll </a></li>
+
+
+                        </div>
+
+
+
+
+                    </div>
+                  <div class="col-md-3 col-lg-3 col-sm-12">
+                        <div class="footer-title">
+                            <h5>About TruckLogics</h5>
+                            <li><a href=""> About the company</a>  </li>
+                             <li> <a href="">Careers</a> - <span class="hire1">We’re  hiring! </span>  </li>
+                              <li> <a href="">Press </a> </li>
+                            
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12">
+                            <div class="footer-title">
+                            <h5>Contact us</h5>
+                            <li>Talk to sales: <br><span class="hire"> (844) 763-8351)</span>  </li>
+                             <li>Talk to support: <br> <span class="hire">Sign in </span>  </li>
+                              <li> Press  </li>
+                            
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="bottom-text text-center">
+                            <P>© 2017 Trucklogics.com, SPAN Enterprises LLC. All rights reserved. </P>
+
+                        </div>
+
+
+
+                   </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+            </div>
+            
+
+        </footer>
+  
+  
+
+
+
+      <script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"></script>
+   <!--    <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        </script>
+
+
+</body>
+
+
+</html>
